@@ -2,9 +2,22 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="App h-screen bg-blue-50 flex justify-center items-center">
-      <div className="h-7 w-24 bg-blue-200 flex justify-center items-center rounded-md hover:bg-blue-600 cursor-pointer">
-        <h1>EXPLORE</h1>
+    <div className="hero">
+      <div className="container">
+        <div className="hero-inner">
+          <div className="hero-content">
+            <div className="hero-content-inner">
+              <h1>
+                <div className="hero-content-line">
+                  <div className="hero-content-line-inner">
+                    Reliving the burden
+                  </div>
+                </div>
+              </h1>
+            </div>
+          </div>
+          <div className="hero-images"></div>
+        </div>
       </div>
     </div>
   );
